@@ -17,9 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        //Change Status bar to White
-        UIApplication.shared.statusBarStyle = .lightContent
-        
         //Use ExtensionView to change status bar bg color
         UIApplication.shared.statusBarView?.backgroundColor = UIColor(rgb: 0xFEB275)
         

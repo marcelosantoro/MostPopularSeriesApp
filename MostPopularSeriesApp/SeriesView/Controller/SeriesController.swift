@@ -54,6 +54,13 @@ class SeriesController: UIViewController {
     }
     
     
+    
+    //Changing Status Bar
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
+    
     @objc func refreshSeriesData(_ sender: Any){
         self.loadSeriesFromAPI()
         self.refreshControl.endRefreshing()
