@@ -1,0 +1,6 @@
+framework module Pods_MostPopularSeriesApp {
+  umbrella header "Pods-MostPopularSeriesApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
